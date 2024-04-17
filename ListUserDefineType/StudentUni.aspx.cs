@@ -57,5 +57,10 @@ namespace ListUserDefineType
                 nameListBox.Items.Add("");
             }
         }
+
+        protected void Button1_Click1(object sender, EventArgs e)
+        {
+            Response.Redirect("SecondForm.aspx");
+        }
     }
 }

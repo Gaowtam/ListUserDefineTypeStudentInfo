@@ -67,11 +67,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="SecondForm.aspx" />
     <Content Include="StudentUni.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SecondForm.aspx.cs">
+      <DependentUpon>SecondForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SecondForm.aspx.designer.cs">
+      <DependentUpon>SecondForm.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Student.cs" />
     <Compile Include="StudentUni.aspx.cs">
       <DependentUpon>StudentUni.aspx</DependentUpon>

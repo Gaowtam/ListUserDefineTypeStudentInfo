@@ -113,7 +113,9 @@
                 </tr>
                 <tr>
                     <td class="auto-style5">&nbsp;</td>
-                    <td class="auto-style3">&nbsp;</td>
+                    <td class="auto-style3">
+                         <asp:Button ID="Button1" runat="server" OnClick="Button1_Click1" Text="Button" />
+                    </td>
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
